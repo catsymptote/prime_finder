@@ -3,9 +3,8 @@
 
 int main()
 {
-    std::cout << "Hello world!" << std::endl;
     prime PFind;
-    long long num = 8;
+    long long num = 7;
 
     if (PFind.is_prime(num))
         std::cout << num << " is a prime!" << std::endl;
